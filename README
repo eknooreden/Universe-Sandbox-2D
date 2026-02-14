@@ -1,33 +1,65 @@
-This is a simple sandbox game in which you can simply just expiriment with gravity.
+# 🌌 Gravity Sandbox (2D)
 
-It was just simply made for some testing although can be used for fun. It was also inspired from the game
-Universe Sandbox which is a 3D model of the universe in which you can play around in. This was a more simplistic 
-2D version of that although it still messes around with gravity using the equation for a planets gravity.
+A simple sandbox game where you can experiment with gravity and orbital physics.
 
-------------Controls--------------
+This project was originally created for testing, but it’s also fun to play around with. It’s inspired by **Universe Sandbox**, a 3D universe simulator — this is a simplified **2D version** that still uses gravitational equations to simulate planetary motion.
 
-The controls are relativly simple:
+Experiment, spawn planets, and try to build stable orbits!
 
-- Left click to have a planet insta orbit it's greater mass
-- Right click to have a planet spawn with natural proper gravity
-- Drag hold and release right click to have a planet spawn with natural gravity and
-    the further you hold the more speed the planet comes with and the direction is choosable,
-    this is more over useful for trying to get some orbits
+The modules used to create this are listed in the following.
 
------------Features--------------
+```
+import os
+import random
+import math
+import pygame
+import matplotlib
+import json
+import datetime
+```
 
-The features are also simple but fun.
+---
 
-Everytime you spawn a new celestial mass ( just a mass that takes up space ), it spawns with a random color 
-selected from a small list of colors although colorful either way.
+## 🎮 Controls
 
-Everytime you start the pygame window there will be a singular mass/star already in the center with 
-a decently high gravity.
+The controls are intentionally simple:
 
-Everytime 2 masses collide, it forms a bigger mass of greater gravity.
+- **Left click** → Instantly snap a planet into orbit around the nearest larger mass  
+- **Right click** → Spawn a planet with natural gravity  
+- **Right click + drag + release** → Spawn a planet with velocity  
+  - Hold longer = more speed  
+  - Drag direction = launch direction  
+  - Useful for creating custom orbits
 
-The main star that spawns in the beginning can not leave the veiwers screen although the spawned planets can. The main star will just bounce on the edges.
+---
 
-Also please say anything about glitches to fix.
+## ✨ Features
 
-Thank you and have fun!
+- 🎨 Every spawned celestial mass gets a **random color**
+- ⭐ A large central star spawns automatically at startup (center of the screen)
+- 💥 Collisions merge masses into a **larger body with stronger gravity**
+- 🧲 Gravity is calculated using a simplified planetary gravity equation
+- 🧱 The central star **cannot leave the screen**
+  - It bounces off the edges
+- 🪐 Spawned planets can freely exit the screen
+
+---
+
+## ⚠ Glitches / Bug Reports
+
+If you notice glitches, bugs, or weird physics behavior, please report them so they can be fixed.
+
+---
+
+## ❤️ Credits
+
+Inspired by **Universe Sandbox**  
+Created as a physics sandbox experiment
+
+---
+
+## 🚀 Have Fun!
+
+Play around with gravity. Break the system. Create impossible orbits.
+
+That’s the whole point.
