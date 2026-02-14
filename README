@@ -1,0 +1,33 @@
+This is a simple sandbox game in which you can simply just expiriment with gravity.
+
+It was just simply made for some testing although can be used for fun. It was also inspired from the game
+Universe Sandbox which is a 3D model of the universe in which you can play around in. This was a more simplistic 
+2D version of that although it still messes around with gravity using the equation for a planets gravity.
+
+------------Controls--------------
+
+The controls are relativly simple:
+
+- Left click to have a planet insta orbit it's greater mass
+- Right click to have a planet spawn with natural proper gravity
+- Drag hold and release right click to have a planet spawn with natural gravity and
+    the further you hold the more speed the planet comes with and the direction is choosable,
+    this is more over useful for trying to get some orbits
+
+-----------Features--------------
+
+The features are also simple but fun.
+
+Everytime you spawn a new celestial mass ( just a mass that takes up space ), it spawns with a random color 
+selected from a small list of colors although colorful either way.
+
+Everytime you start the pygame window there will be a singular mass/star already in the center with 
+a decently high gravity.
+
+Everytime 2 masses collide, it forms a bigger mass of greater gravity.
+
+The main star that spawns in the beginning can not leave the veiwers screen although the spawned planets can. The main star will just bounce on the edges.
+
+Also please say anything about glitches to fix.
+
+Thank you and have fun!
